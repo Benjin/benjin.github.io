@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/benjin.github.io/precache-manifest.97c8c6349562a62fc722b8c495bafe0f.js"
+  "/benjin.github.io/precache-manifest.eecc49076ba9ec54d407392141a09b86.js"
 );
 
 self.addEventListener('message', (event) => {
