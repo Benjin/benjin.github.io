@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f8293f63d030837922968ea39ba62c9f",
+    "revision": "96b01be59eb1eda39eeb3a9eea853be0",
     "url": "/benjin.github.io/index.html"
   },
   {
