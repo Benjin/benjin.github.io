@@ -3,7 +3,8 @@ import './App.css';
 import { NavLink, Switch, Route } from 'react-router-dom';
 import { Home } from './pages/Home';
 import { About } from './pages/About';
-import {Contact} from './pages/Contact';
+import { Contact } from './pages/Contact';
+import { NotFound } from './pages/NotFound';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ const Main = () => (
     <Route exact path='/' component={Home}></Route>
     <Route exact path='/about' component={About}></Route>
     <Route exact path='/contact' component={Contact}></Route>
+    <Route component={NotFound}></Route>
   </Switch>
 );
 
